@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    background-image: url("h1.jpg");
+    height: 150px;
+
+   
+}
+.nav a{
+    align-items: center; 
+    text-decoration:none;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #fff;
+}
+
+.featured {
+    background-image: url("harry.jpg");
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#gallery img{
+    display: inline;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
